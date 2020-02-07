@@ -1,0 +1,20 @@
+.card {	
+	margin: 0 auto 1.875rem;
+	height: 355px;
+    width: 240px;	    
+	position: relative;			
+	
+	&__title {
+		height: 100%;
+    	width: 100%;    	
+		background: rgba(0, 0, 0, 0.5);
+    	color: $white;
+    	position: absolute;    	
+    	opacity: 0;
+
+    	&:hover {		
+	    	opacity: 1;
+	    	cursor: pointer;
+		}
+	}	
+}

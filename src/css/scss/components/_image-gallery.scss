@@ -1,0 +1,16 @@
+body {
+	background-color: $black;
+}
+
+.image-gallery {
+	text-align: left;
+
+	&__link {
+		font-size: $text-s;
+		color: $white;
+
+		&:hover {
+			color: $dark-white;
+		}
+	}
+}

@@ -1,0 +1,29 @@
+.b-img {
+	display: block;
+	background: url(../img/sprites.png) no-repeat;    
+
+    &_weixin {
+        background-position: -174px -129px;
+        width: 50px;
+        height: 41px;
+    }
+
+    &_weixin_QR-code {
+        background-position: -131px 0px;
+    }
+
+    &_weibo {
+        background-position: -129px -129px;
+        width: 45px;
+        height: 37px;
+    }
+
+    &_weibo_QR-code {
+        background-position: 0px -129px;
+    }        
+
+    &_logo, &_weixin_QR-code, &_weibo_QR-code {        
+        width: 130px;
+        height: 129px;
+    }
+}

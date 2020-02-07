@@ -1,0 +1,15 @@
+.header {	
+	&__logo {
+		margin: 0 auto;
+		position: absolute;
+		top: 1.25rem;
+		left: 0;
+		right: 0;
+		display: block;	
+		z-index: 1031;	
+		
+		&:hover {
+			outline: 1px solid #000;
+		}	
+	}
+}

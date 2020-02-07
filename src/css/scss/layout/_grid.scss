@@ -1,0 +1,36 @@
+.container {
+	@include make-container();
+	@include make-container-max-widths();
+}
+
+.row {
+	@include make-row();
+}
+
+.col-sm-5 {
+	@include media-breakpoint-up(sm) {
+	    @include make-col(5);
+	} 
+}
+
+.col-sm-6 {
+	@include media-breakpoint-up(sm) {
+	    @include make-col(6);
+	}
+}
+
+.col-lg-3 {
+	@include media-breakpoint-up(lg) {
+	    @include make-col(3);
+	}
+}
+
+.col-lg-10 {
+	@include media-breakpoint-up(lg) {
+	    @include make-col(10);
+	}
+}
+
+.col-sm-5, .col-sm-6, .col-lg-3, .col-lg-10 {
+	@include make-col-ready();
+}

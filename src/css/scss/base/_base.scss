@@ -1,0 +1,14 @@
+body {
+    font-family: $font-primary;
+    font-size: $text-m;
+}
+
+main {
+	font-weight: 600;
+}
+
+a {
+	&:hover {
+		text-decoration: none;
+	}
+}

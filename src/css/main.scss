@@ -1,0 +1,30 @@
+/*Bootstrap*/
+
+@import "~bootstrap/scss/functions";
+@import "~bootstrap/scss/variables";
+@import "~bootstrap/scss/mixins";
+@import "~bootstrap/scss/reboot";
+
+/*Utils*/
+
+@import "scss/utils/*";
+
+/*Base*/
+
+@import "scss/base/*";
+
+/*Components*/
+
+@import "scss/components/b-img";
+@import "scss/components/buttons";
+@import "scss/components/form";
+@import "scss/components/hamburger";
+@import "scss/components/home-picture";
+@import "scss/components/img";
+@import "scss/components/menu";
+@import "scss/components/title";
+@import "scss/components/card";
+
+/*Layout*/
+
+@import "scss/layout/*";

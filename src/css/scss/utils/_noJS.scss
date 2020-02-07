@@ -1,0 +1,55 @@
+.no-js {
+	.home-picture {		
+	    opacity: 1;
+	}	
+
+	.title {
+		margin: 0 0 1.175rem;
+	}
+
+	.hamburger {
+		display: none;
+	}
+
+	.navigation {
+		position: relative;
+	}
+
+	.menu {
+		margin-top: 7rem;
+		display: flex;
+    	flex-wrap: wrap;
+    	justify-content: center;
+	}
+
+	.fotorama {
+		margin: 20px auto 0;
+		max-width: 760px;
+
+		&_hide {
+			opacity: 1;
+		}  
+
+	    img {
+			display: block;
+		    max-width: 100%;
+		}
+	}
+
+	.fotorama:not(.fotorama--unobtrusive)>*:not(:first-child) {
+	    display: block;
+	}
+}
+
+@media( min-width: 768px ) {
+	.no-js {
+		.title {
+			margin-top: 3rem;		
+		}
+
+		.menu {	 
+			margin-top: 0;
+			flex-wrap: nowrap;
+		}
+	}
+}
